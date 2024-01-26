@@ -37,7 +37,7 @@ a {
 }
 
 .head__h1 {
-  color: var(--tg-theme-text-color);
+  color: var(--tg-theme-accent-text-color);
 }
 
 .head__end {
@@ -65,6 +65,7 @@ a {
 
 .head__text {
   color: var(--tg-theme-text-color);
+  color: var(--tg-theme-accent-text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 250;

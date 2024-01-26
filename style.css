@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #d7d9df;
+  background-color: var(--tg-theme-bg-color);
   /* margin: 0; */
   font-family: "Fira Sans", sans-serif;
   font-style: normal;

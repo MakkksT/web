@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.head-balance {
+  display: flex;
+  justify-content: center;
+}
+
+.head-balance__h1 {
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+.token-all {
+  display: flex;
+  justify-content: center;
+}
+
+
+.token_wrapper{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.but {
+  display: flex;
+  padding: 0;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+
+
+}
+
+@keyframes butAnimation {
+  0% {
+    border: 1px solid red;
+    
+  }
+
+  100% {
+    border: 1px solid orange;
+    
+  }
+}
+
+.but.animate {
+  animation-name: butAnimation; /* Имя анимации */
+  /*animation-duration: 5s; Длительность анимации*/
+  /*animation-timing-function: ease; Функция сглаживания*/
+  animation-fill-mode: forwards; /* Задержать последнее состояние анимации */
+}
+
+/* .but:active {
+  animation-name: none; /* Отключить анимацию при нажатии 
+} */
+
+.token-card {
+  display: flex;
+  justify-content: center;
+
+
+  /* border: 1px solid orange; */
+  /*position: relative;*/
+  padding: 10px;
+
+}
+.token-card__left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1px;
+  width: 280px;
+  /*margin-right: 50px;*/
+}
+
+.token-card__right {
+display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+text-align: center;
+}
+.right1{
+  padding-left: 32px;
+}
+.right{
+  display: flex;
+padding-left: 19px;
+
+}
+.token-card__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 2px;
+}
+.token-card__description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 120%;
+  color: gray;
+  text-align: left;
+}
+
+.token-card__price {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  margin-bottom: 4px;
+}
+.text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}

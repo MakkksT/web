@@ -27,7 +27,7 @@ body {
 .token-all {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 
@@ -44,7 +44,8 @@ body {
   background: none;
   cursor: pointer;
   border-radius: 10px;
-  height: 30%;
+  height: 25%;
+  margin-bottom: 15px;
 
 
 }
@@ -92,8 +93,6 @@ body {
   align-items: start;
   width: 250px;
   gap: 1px;
-  margin: auto;
-  /*margin-right: 50px;*/
 }
 
 .token-card__right {
@@ -104,7 +103,6 @@ display: flex;
   text-align: center;
   justify-content: center;
   width: 70px;
-  margin: auto;
 }
 
 .token-card__title {
@@ -151,7 +149,6 @@ display: flex;
   background: none;
   cursor: pointer;
   width: 100%;
-  /*margin-top: 10px;*/
 }
 .but2{
   display: flex;
@@ -170,12 +167,4 @@ display: flex;
 .text_but{
   color: var(--tg-theme-button-text-color);
   font-size: 20px;
-
-}
-.navbar {
-
-}
-
-.scrolled{
-  position: fixed;
 }

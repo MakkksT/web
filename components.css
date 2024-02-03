@@ -27,7 +27,7 @@ body {
 .token-all {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
 }
 
 
@@ -138,7 +138,7 @@ display: flex;
 
 .navbar{
   display: flex;
-  margin-top: 5px;
+
 }
 .but1{
   position: fixed;
@@ -152,6 +152,7 @@ display: flex;
 }
 .but2{
   display: flex;
+  margin-top: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;

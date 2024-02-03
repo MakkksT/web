@@ -16,6 +16,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  background-color: var(--tg-theme-bg-color) ;
+}
+
 .head-balance {
   display: flex;
   justify-content: center;
@@ -48,6 +52,7 @@ html {
   background: none;
   cursor: pointer;
   border-radius: 10px;
+  height: 30%;
 
 
 }
@@ -113,6 +118,7 @@ display: flex;
 .token-card__title {
   font-size: 28px;
   font-weight: bold;
+  color: var(--tg-theme-text-color);
   /*line-height: 120%; !* 28.8px *!*/
   margin-bottom: 2px;
 }
@@ -122,14 +128,14 @@ display: flex;
   /*flex-wrap: nowrap;*/
   /*font-weight: 400;*/
   /*line-height: 120%;*/
-  color: gray;
+  color: var(--tg-theme-hint-color);
   text-align: left;
 }
 
 .token-card__price {
   text-align: right;
   font-size: 18px;
-
+  color: var(--tg-theme-text-color);
   font-weight: bold;
   /*line-height: 120%; !* 28.8px *!*/
   margin-bottom: 4px;
@@ -142,7 +148,7 @@ display: flex;
 
 .navbar{
   display: flex;
-  margin-top: 65px;
+  margin-top: 25px;
 }
 .but1{
   position: fixed;
@@ -153,7 +159,7 @@ display: flex;
   background: none;
   cursor: pointer;
   width: 100%;
-  margin-top: 50px;
+  /*margin-top: 10px;*/
 }
 .but2{
   display: flex;
@@ -165,11 +171,13 @@ display: flex;
   background: var(--tg-theme-button-color);
   cursor: pointer;
   /*width: 100%;*/
-  height: 50px;
+  height: 80px;
 }
 
 .text_but{
   color: var(--tg-theme-button-text-color);
+  font-size: 14px;
+
 }
 .navbar {
 

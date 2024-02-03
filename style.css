@@ -37,7 +37,7 @@ a {
 }
 
 .head__h1 {
-  color: black;
+  color: var(--tg-theme-text-color);
 }
 
 .head__end {
@@ -64,7 +64,7 @@ a {
 }
 
 .head__text {
-  color: black;
+  color: var(--tg-theme-text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 250;
